@@ -20,7 +20,7 @@ os.environ["LANGCHAIN_PROJECT"]=os.getenv("LANGCHAIN_PROJECT")
 
 llm = ChatGroq(model='gemma2-9b-it')
 
-loader = PyPDFLoader('resume.pdf')
+loader = PyPDFLoader('Resume.pdf')
 documents = loader.load()
 
 text_splitter=RecursiveCharacterTextSplitter(chunk_size=800,chunk_overlap=100)
