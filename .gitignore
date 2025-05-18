@@ -6,6 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
+# Don't track environment variables
+.env
+
+# Don't track compiled Python cache files
+__pycache__/
+*.pyc
+
+# Optional: VSCode or editor-specific settings
+.vscode/
+
 # Distribution / packaging
 .Python
 build/
